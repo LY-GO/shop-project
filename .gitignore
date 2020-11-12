@@ -15,3 +15,13 @@
 /spring-cloud-dubbo-example/provider/target/
 /spring-cloud-feign/spring-cloud-feign-base/target/
 /spring-cloud-feign/spring-cloud-order-server/target/
+/spring-cloud-feign/spring-cloud-order-server/src/main/resources/
+/spring-cloud-dubbo-example/provider/src/main/resources/
+/spring-cloud-dubbo-example/consumer/src/main/resources/
+/shop-user-center/shop-user/src/main/resources/
+/shop-user-center/shop-address/src/main/resources/
+/shop-sentinel/src/main/resources/
+/shop-rest/src/main/resources/
+/shop-product/src/main/resources/
+/shop-points/src/main/resources/
+/shop-discount/src/main/resources/
