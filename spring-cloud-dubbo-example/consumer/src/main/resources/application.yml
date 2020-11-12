@@ -1,0 +1,79 @@
+spring:
+  application:
+    name: dubbo-consumer-example
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  39.108.185.253:8848
+
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 驱动包 8.0以上的配置
+    # =========== durid 连接池配置===========
+    druid:
+      # 初始化连接大小
+      initial-size: 5
+      #最大连接池数量
+      max-active: 20
+      # 最小连接池数量
+      min-idle: 3
+      # 配置获取连接等待超时的时间 单位毫秒
+      max-wait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: select
+      test-while-idle: true
+
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+
+      filters: stat,wall,slf4j
+      max-pool-prepared-statement-per-connection-size: 20
+      use-global-data-source-stat: true
+      connect-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+server:
+  port: 8091
+#    mybatis plus 配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+  #
+  global-config:
+    db-config:
+      id-type: auto
+
+
+feign:
+  client:
+    config:
+      feign-name:
+        logger-level: full
+
+dubbo:
+  scan:
+    # 必须放在最前面
+    # dubbo 服务扫描基准包
+    base-packages: com.qfedu.consumer.service
+  protocol:
+    # dubbo 协议
+    # http  协议
+    # Hessian 协议
+    # thrift 协议
+    # RMI
+    name: dubbo
+    # dubbo 协议端口（ -1 表示自增端口，从 20880 开始）
+    port: -1
+  registry:
+    # 挂载到 Spring Cloud 注册中心
+    address: nacos://112.74.42.138:8848
+  cloud:
+    subscribed-services: dubbo-provider-example
+
+

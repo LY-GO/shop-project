@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dubbo-example/consumer/consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-dubbo-example/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dubbo-example/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/spring-cloud-dubbo-example/dubbo-api/dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dubbo-example/provider/provider.iml" filepath="$PROJECT_DIR$/spring-cloud-dubbo-example/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-api/redis-api/redis-api.iml" filepath="$PROJECT_DIR$/common-api/redis-api/redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-api/request-api/request-api.iml" filepath="$PROJECT_DIR$/common-api/request-api/request-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-user-center/shop-address/shop-address.iml" filepath="$PROJECT_DIR$/shop-user-center/shop-address/shop-address.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-discount/shop-discount.iml" filepath="$PROJECT_DIR$/shop-discount/shop-discount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-points/shop-points.iml" filepath="$PROJECT_DIR$/shop-points/shop-points.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-product/shop-product.iml" filepath="$PROJECT_DIR$/shop-product/shop-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-project.iml" filepath="$PROJECT_DIR$/shop-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-rest/shop-rest.iml" filepath="$PROJECT_DIR$/shop-rest/shop-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-sentinel/shop-sentinel.iml" filepath="$PROJECT_DIR$/shop-sentinel/shop-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-user-center/shop-user/shop-user.iml" filepath="$PROJECT_DIR$/shop-user-center/shop-user/shop-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-user-center/shop-user-center.iml" filepath="$PROJECT_DIR$/shop-user-center/shop-user-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dubbo-example/spring-cloud-dubbo-example.iml" filepath="$PROJECT_DIR$/spring-cloud-dubbo-example/spring-cloud-dubbo-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-base/spring-cloud-feign-base.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-base/spring-cloud-feign-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-order-server/spring-cloud-order-server.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-order-server/spring-cloud-order-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-api/swagger-api/swagger-api.iml" filepath="$PROJECT_DIR$/common-api/swagger-api/swagger-api.iml" />
+    </modules>
+  </component>
+</project>

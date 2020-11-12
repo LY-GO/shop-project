@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.discount.mapper.DiscountUserMapper">
+    <resultMap id="BaseResultMap" type="com.qfedu.discount.domain.entity.DiscountUser">
+        <!--@mbg.generated-->
+        <!--@Table t_discount_user-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="member_id" jdbcType="INTEGER" property="memberId"/>
+        <result column="count" jdbcType="INTEGER" property="count"/>
+        <result column="get_time" jdbcType="TIMESTAMP" property="getTime"/>
+        <result column="past_time" jdbcType="TIMESTAMP" property="pastTime"/>
+        <result column="status" jdbcType="INTEGER" property="status"/>
+        <result column="discount_kind" jdbcType="VARCHAR" property="discountKind"/>
+        <result column="discount_money" jdbcType="DECIMAL" property="discountMoney"/>
+        <result column="discount_des" jdbcType="VARCHAR" property="discountDes"/>
+        <result column="discount_limit" jdbcType="INTEGER" property="discountLimit"/>
+        <result column="discount_total" jdbcType="INTEGER" property="discountTotal"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@mbg.generated-->
+        id, member_id, `count`, get_time, past_time, `status`, discount_kind, discount_money,
+        discount_des, discount_limit, discount_total
+    </sql>
+</mapper>

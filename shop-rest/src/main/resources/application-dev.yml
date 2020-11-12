@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql-master/member?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+
+#logging:
+#  config: classpath:logback-spring-dev.xml
+#  level:
+#    root: debug
+#    com.qfedu.shop.controller: debug
+#    com.qfedu.shop.service: debug

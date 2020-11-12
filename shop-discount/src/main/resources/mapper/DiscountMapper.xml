@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.discount.mapper.DiscountMapper">
+    <resultMap id="BaseResultMap" type="com.qfedu.discount.domain.entity.Discount">
+        <!--@mbg.generated-->
+        <!--@Table t_discount-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="shop_name" jdbcType="VARCHAR" property="shopName"/>
+        <result column="discount_kind" jdbcType="VARCHAR" property="discountKind"/>
+        <result column="discount_money" jdbcType="DECIMAL" property="discountMoney"/>
+        <result column="discount_des" jdbcType="INTEGER" property="discountDes"/>
+        <result column="discount_stock" jdbcType="INTEGER" property="discountStock"/>
+        <result column="discount_limit" jdbcType="INTEGER" property="discountLimit"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="past_time" jdbcType="TIMESTAMP" property="pastTime"/>
+        <result column="status" jdbcType="INTEGER" property="status"/>
+        <result column="discount_total" jdbcType="INTEGER" property="discountTotal"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@mbg.generated-->
+        id, shop_name, discount_kind, discount_money, discount_des, discount_stock, discount_limit,
+        update_time, past_time, `status`, discount_total
+    </sql>
+</mapper>

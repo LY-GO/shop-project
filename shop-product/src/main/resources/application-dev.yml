@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://120.25.206.164:3307/db_product?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+

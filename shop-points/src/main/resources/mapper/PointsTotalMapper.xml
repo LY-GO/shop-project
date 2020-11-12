@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.points.mapper.PointsTotalMapper">
+    <resultMap id="BaseResultMap" type="com.qfedu.points.domain.entity.PointsTotal">
+        <!--@mbg.generated-->
+        <!--@Table t_points_total-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="total" jdbcType="INTEGER" property="total"/>
+        <result column="total_con" jdbcType="INTEGER" property="totalCon"/>
+        <result column="total_get" jdbcType="INTEGER" property="totalGet"/>
+        <result column="member_id" jdbcType="INTEGER" property="memberId"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@mbg.generated-->
+        id, total, total_con, total_get, member_id
+    </sql>
+</mapper>

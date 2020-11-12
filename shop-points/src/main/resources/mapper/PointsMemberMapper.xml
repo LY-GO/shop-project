@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.points.mapper.PointsMemberMapper">
+    <resultMap id="BaseResultMap" type="com.qfedu.points.domain.entity.PointsMember">
+        <!--@mbg.generated-->
+        <!--@Table t_points_member-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="points_kind" jdbcType="VARCHAR" property="pointsKind"/>
+        <result column="points_value" jdbcType="INTEGER" property="pointsValue"/>
+        <result column="get_time" jdbcType="TIMESTAMP" property="getTime"/>
+        <result column="member_id" jdbcType="INTEGER" property="memberId"/>
+        <result column="status" jdbcType="INTEGER" property="status"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@mbg.generated-->
+        id, points_kind, points_value, get_time, member_id, `status`
+    </sql>
+</mapper>

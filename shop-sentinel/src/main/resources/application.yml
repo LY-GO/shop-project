@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: sentinel-example
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.74.42.138:8848
+
+    sentinel:
+      transport:
+        # 配置sentinel控制台的地址
+        dashboard: 120.25.206.164:8720
+feign:
+  sentinel:
+    # 开启Sentinel对Feign的支持
+    enabled: true

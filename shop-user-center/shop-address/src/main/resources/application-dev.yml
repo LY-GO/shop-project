@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://119.23.190.71:3306/db_smart_address?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+
+logging:
+  config: classpath:logback-spring-dev.xml
+  level:
+    com.smart.user: debug

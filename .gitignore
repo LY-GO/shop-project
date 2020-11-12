@@ -1,0 +1,17 @@
+# Project exclude paths
+/.
+/common-api/redis-api/target/
+/common-api/request-api/target/
+/common-api/swagger-api/target/
+/shop-discount/target/
+/shop-points/target/
+/shop-product/target/
+/shop-rest/target/
+/shop-sentinel/target/
+/shop-user-center/shop-address/target/
+/shop-user-center/shop-user/target/
+/spring-cloud-dubbo-example/consumer/target/
+/spring-cloud-dubbo-example/dubbo-api/target/
+/spring-cloud-dubbo-example/provider/target/
+/spring-cloud-feign/spring-cloud-feign-base/target/
+/spring-cloud-feign/spring-cloud-order-server/target/
